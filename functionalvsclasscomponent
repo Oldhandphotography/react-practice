@@ -1,0 +1,19 @@
+functional vs class components
+
+
+
+function component:
+1 simple functions.
+2 use func components as much as possible.
+3 absence of 'this' keyword.
+4 solution without using state.
+5 mainly responsible for the ui.
+6 stateless/dud/presentational.
+
+
+class components:
+1 more feature rich.
+2 maointain their own private data-state.
+3 complex ui design.
+4 provide lifecycle hooks.
+5 stateful/smart/container.

@@ -1,0 +1,29 @@
+props are immutable means it cant change.
+
+props vs state
+
+props:
+1 props get passed to the component.
+2 function parametrs 
+3 props are immutable
+4 props- functional components
+this.props-class components. 
+
+state:
+1 state is managed within the coponent.
+2 variables declared in the function body.
+3 state can be changed.
+4 useState hook - functional Components
+this.state- class component
+
+
+asynchronus and synchronus
+asynchronus call:
+if we crement a function and call setstate 5 times it will not increment the state to 5 because it will not evaluate the result after every setstate called 
+
+synchronus:
+but if we try to do this task with defining previous state and call the function like console.log with it it will increment the state after every time the state called like 5 10 15..... which is a synchronus call.
+
+code has to be executed after the state has been updated? place that code in that code in the call back function which is the second argumnet to the setstate method.
+
+when you have to update state based on the previous sate value , pass in a function as an argument instead o fthe regular object.
