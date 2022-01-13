@@ -14,7 +14,6 @@ import React from 'react'
 // {/* </h1> */}
 
  const Greet = (props) =>{ 
-    console.log(props)
     return (
         <div>
             <h1>hello{props.name} as {props.catagory}</h1>
@@ -22,5 +21,30 @@ import React from 'react'
         </div>
     )
 } 
+
+// export default Greet;
+
+// 1st way of array destructuring 
+// const Greet = ({name,catagory}) =>{ 
+//     return (
+//         <div>
+//             <h1>hello{name} as {catagory}</h1>
+//             {props.children}
+//         </div>
+//     )
+// } 
+
+// export default Greet;
+
+// 2nd way of destructuring
+// const Greet = props =>{ 
+//     const {name,catagory} = props;
+//     return (
+//         <div>
+//             <h1>hello{name} as {catagory}</h1>
+//             {props.children}
+//         </div>
+//     )
+// } 
 
 export default Greet;

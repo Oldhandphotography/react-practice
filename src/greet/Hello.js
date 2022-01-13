@@ -8,11 +8,8 @@ function Hello() {
     // )
 
     // using this we can show on main page without using jsx
-    return React.createElement(
-        'div',
-        {id:'hello',classname:'dummyclass'},
-    React.createElement('h1',null,'hellow wishwas')
-    )}
+    return React.createElement('div',{id:'hello',classname:'dummyclass'},
+    React.createElement('h1',null,'hellow wishwas'))}
 
 export default Hello
 
