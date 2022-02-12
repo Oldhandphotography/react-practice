@@ -1,0 +1,13 @@
+regular vs Purecomponent
+
+regular: a regular component doest not implement the shouldComponentUpdate() method. it alwasys returnaa true by default.
+
+pure: a pure component on the other hand implements shouldComponentUpdate() method with shallow props and state comparison.
+
+shallow comparison
+
+primitive type: a (sc) b return true if a and b have the same value and are of the same type.
+
+complex type: a (sc) b return true if a and b refdrence the exact same object.
+
+state comparisions

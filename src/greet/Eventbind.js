@@ -11,6 +11,11 @@ export default class Eventbind extends Component {
     handleMessage() {
         this.setState({message:'goodbye'})
     }
+    
+    // for 4th method
+    handleMessageforarrowfnc =()=> {
+        this.setState({message:'now fuckoff'}) 
+    }
     render() {
         return (
             <div>
@@ -29,6 +34,11 @@ export default class Eventbind extends Component {
                 {/* or
                 binding in class constructor */}
                 <button onClick={this.handleMessage}>click</button>
+                
+
+                {/* 4 */}
+                {/* using class property as arrow function */}
+                <button onClick={this.handleMessageforarrowfnc}>click</button>
             </div>
         )
     }
