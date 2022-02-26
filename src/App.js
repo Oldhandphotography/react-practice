@@ -45,11 +45,13 @@ import UseEffect1 from "./greet/useEffect1.js"
 import UseEffect2 from "./greet/useEffect2.js"
 import ClickCounterOne from "./greet/ClassCounterOne.js"
 import Test from "./greet/test.js"
+import Datafetching from "./greet/Datafetching.js"
 
 function App() {
   return (
     <div className="App">
-      <ClickCounterOne />
+      <Datafetching />
+      {/* <ClickCounterOne /> */}
 
       {/* <UseEffect2 /> */}
       {/* <UseEffect1 /> */}
