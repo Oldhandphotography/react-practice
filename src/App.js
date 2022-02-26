@@ -44,6 +44,7 @@ import Hookcounter4 from "./greet/Hookcounter4.js"
 import UseEffect1 from "./greet/useEffect1.js"
 import UseEffect2 from "./greet/useEffect2.js"
 import ClickCounterOne from "./greet/ClassCounterOne.js"
+import Test from "./greet/test.js"
 
 function App() {
   return (
